@@ -53,3 +53,26 @@ button:hover {
     font-size: 2rem;
     margin: 20px;
 }
+
+.page-section {
+    min-height: 100vh;
+    background: pink;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+.gallery img {
+    width: 90%;
+    max-width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
